@@ -30,8 +30,8 @@ def sidebar():
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "☘️ReportIO allows you to ask questions about your "
-            "home inspection reports and get accurate answers with instant citations. "
+            "Dingest is a document parser app "
+            "-- "
         )
         st.markdown(
             "This tool is a work in progress. "
