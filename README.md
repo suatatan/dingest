@@ -4,7 +4,6 @@
 
 ## Document Ingestion Tool
 
- - Invoices
+- Invoices
 
  Dr. Suat ATAN
-
