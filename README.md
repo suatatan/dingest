@@ -1,7 +1,8 @@
 <h1 align="center">
  🫖Dingest
 </h1>
- ## Document Ingestion Tool
+
+## Document Ingestion Tool
 
  - Invoices
 
