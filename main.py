@@ -1,6 +1,6 @@
 import streamlit as st
 
-from components.sidebar import sidebar
+from wisegpt.components.sidebar import sidebar
 
 from ui import (
     wrap_doc_in_html,
@@ -10,14 +10,14 @@ from ui import (
     display_file_read_error,
 )
 
-from core.caching import bootstrap_caching
+from wisegpt.core.caching import bootstrap_caching
 
-from core.parsing import read_file
-from core.chunking import chunk_file
-from core.embedding import embed_files
-from core.qa import query_folder
-from core.utils import get_llm
-from core.directprompt import organize_info_from_invoice
+from wisegpt.core.parsing import read_file
+from wisegpt.core.chunking import chunk_file
+from wisegpt.core.embedding import embed_files
+from wisegpt.core.qa import query_folder
+from wisegpt.core.utils import get_llm
+from wisegpt.core.directprompt import organize_info_from_invoice
 
 
 EMBEDDING = "openai"

@@ -1,6 +1,6 @@
 import streamlit as st
 
-from components.faq import faq
+from wisegpt.components.faq import faq
 # from dotenv import load_dotenv
 import os
 

@@ -1,11 +1,11 @@
 from langchain.vectorstores import VectorStore
-from core.parsing import File
+from wisegpt.core.parsing import File
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.embeddings.base import Embeddings
 from typing import List, Type
 from langchain.docstore.document import Document
-from core.debug import FakeVectorStore, FakeEmbeddings
+from wisegpt.core.debug import FakeVectorStore, FakeEmbeddings
 
 
 class FolderIndex:
