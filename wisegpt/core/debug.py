@@ -21,11 +21,14 @@ class FakeEmbeddings(FakeEmbeddingsBase):
 class FakeVectorStore(VectorStore):
     """Fake vector store for testing purposes."""
 
-    def __init__(self, texts: List[str]):
+    # def __init__(self, texts: List[str]):
+    def __init__(self, texts: Iterable[str], metadatas: Optional[List[dict]] = None, **kwargs: Any):
         self.texts: List[str] = texts
 
+    
     def add_texts(
         self, texts: Iterable[str], metadatas: List[dict] | None = None, **kwargs: Any
+        
     ) -> List[str]:
         self.texts.extend(texts)
         return self.texts
