@@ -16,7 +16,9 @@ def organize_info_from_invoice(extracted_text, openai_api_key):
                 <br><b>Vehicle Information:</b>
                 <br><b>Services Performed:</b>
                 
+                
                 from the ONE invoice for ONE customer.  
+                Then write the definition of services for non-technical users.
                                           
                 {extracted_text}""")
 
