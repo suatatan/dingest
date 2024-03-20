@@ -10,13 +10,13 @@ from ui import (
     display_file_read_error,
 )
 
-from wisegpt.core.caching import bootstrap_caching
+# from wisegpt.core.caching import bootstrap_caching
 
 from wisegpt.core.parsing import read_file
-from wisegpt.core.chunking import chunk_file
-from wisegpt.core.embedding import embed_files
-from wisegpt.core.qa import query_folder
-from wisegpt.core.utils import get_llm
+# from wisegpt.core.chunking import chunk_file
+# from wisegpt.core.embedding import embed_files
+# from wisegpt.core.qa import query_folder
+# from wisegpt.core.utils import get_llm
 from wisegpt.core.directprompt import organize_info_from_invoice
 
 
@@ -31,7 +31,7 @@ st.set_page_config(page_title="Dingest", page_icon="🫖", layout="wide")
 st.header("🫖 Dingest")
 
 # Enable caching for expensive functions
-bootstrap_caching()
+# bootstrap_caching()
 
 sidebar()
 
